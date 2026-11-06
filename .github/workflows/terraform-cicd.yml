@@ -26,7 +26,7 @@ jobs:
       - name: Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@v4
         with:
-          role-to-assume: arn:aws:iam::039892629037:role/ec2-oidc
+          role-to-assume: arn:aws:iam::126078152322:role/oidcconfig
           aws-region: us-east-1
           
       - name: setup terraform
@@ -59,7 +59,7 @@ jobs:
   #       - name: Configure AWS Credentials
   #         uses: aws-actions/configure-aws-credentials@v4
   #         with:
-  #           role-to-assume: arn:aws:iam::039892629037:role/ec2-oidc
+  #           role-to-assume: arn:aws:iam::126078152322:role/oidcconfig
   #           aws-region: us-east-1
             
   #       - name: setup terraform
